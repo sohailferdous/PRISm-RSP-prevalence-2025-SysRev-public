@@ -35,7 +35,7 @@ overall <- overall %>%
 
 summary(overall)
 
-# Create GOLD dataset
+# Create LLN dataset
 lln <- filter(overall, diag_defn == "lln")
 
 # 1. Overall prevalence ####
