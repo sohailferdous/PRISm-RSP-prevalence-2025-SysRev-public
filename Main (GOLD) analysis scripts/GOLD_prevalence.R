@@ -104,7 +104,7 @@ cur_smoker_gold_rsp <- filter(gold, diag == "rsp" & smoking.prev == "y") %>%
   drop_na(tot_cur,case_cur)
 
 # 4. WHO location ####
-# Groups were only created for regions with sufficient studies to calculate GOLD prevalence (n>3)
+# Groups were only created for regions with sufficient studies to calculate GOLD prevalence (n>=3)
 #
 # Region of the Americas (AMR) - combined, prism and rsp groups
 amro_gold_comb <- filter(gold, geo_location == "AMR")
