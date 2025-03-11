@@ -181,8 +181,4 @@ reg_rsp_gold_current_smoker_percent <- rma(yi = logit_prev,
 summary(reg_rsp_gold_current_smoker_percent)
 
 # Multivariate regression
-reg_rsp_gold_multi <- rma(yi = logit_prev, 
-                            vi = var_logit, 
-                            mods = ~ mean_age+bronchod, 
-                            data = rsp_gold)
-summary(reg_rsp_gold_multi)
+# Multivariate regression was not perfomed as publication year variable satisfied condition for inclusion (p<=0.20)
