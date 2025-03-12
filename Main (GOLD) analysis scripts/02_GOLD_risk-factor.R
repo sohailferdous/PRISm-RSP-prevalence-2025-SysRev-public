@@ -437,8 +437,6 @@ meta_male_rsp_multi <- metagen(TE = logOR,
 
 forest(meta_male_rsp_multi)
 
-
-
 # 3. Obesity (>= 30 kg/m2 vs normal BMI - 18.5 to 24.9 kg/m2)
 obese_rsp_multi <- filter(rsp_multi, risk_fac=="obese")
 
