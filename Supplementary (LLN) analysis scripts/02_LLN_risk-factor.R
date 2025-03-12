@@ -3,8 +3,9 @@
 #
 # Supplementary analysis
 #
-# This script performs meta-analyses for risk factors of LLN-PRISm and LLN-RSP. Effect estimate is in the
-# form of odds ratios. Meta-analysis of unadjusted (univariable) and adjusted (multivariatble) ORs have been
+# This script performs meta-analyses for risk factors of combined LLN-PRISm and LLN-RSP only. This has been 
+# done due to insufficient studies when looking at individual categories. Effect estimate is in the form of 
+# odds ratios. Meta-analysis of unadjusted (univariable) and adjusted (multivariatble) ORs have been 
 # performed. For adjusted ORs - they were only recorded if they were adjusted for similar confounders
 #
 # Set working directory to directory with data_LLN_risk-factor.csv file
