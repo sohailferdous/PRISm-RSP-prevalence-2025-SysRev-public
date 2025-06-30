@@ -3,4 +3,4 @@ This repository provides open-access to data and R codes used for the meta-analy
 \
 Study authors: Dr. Wujian Xu, Dr. Sohail Ferdous, Bo Peng, Dr. Ting Shi\
 \
-Link to study: Will be updated once published.
+Link to study: Will be updated when the study is published.
